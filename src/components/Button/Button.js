@@ -5,7 +5,7 @@ function Button(props) {
   return (
     <button
       // onClick={props.onClick}
-      className="btn btn-info width: 15px height: 5px" 
+      className="btn" 
       // {`button ${props["data-value"]}`}
       // {...props}
       // style={{ opacity: props.image ? 1 : 0 }}

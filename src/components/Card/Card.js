@@ -7,12 +7,12 @@ function Card(props) {
     <div
       className="card"
       style={{
-        backgroundImage: props.image ? `url(${props.image})` : "none",
+        // backgroundImage: props.image ? `url(${props.image})` : "none",
       }}
     >
-      {!props.image && (
+      {/* {!props.image && (
         <i className="fa fa-spinner fa-spin" aria-hidden="true" />
-      )}
+      )} */}
       <Button />
       {/* <Button
         style={{ opacity: props.image ? 1 : 0 }}

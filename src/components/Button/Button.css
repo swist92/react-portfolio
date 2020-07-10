@@ -1,11 +1,12 @@
-/* .card-btn {
+.btn {
     border-radius: 50%;
     height: 50px;
     width: 50px;
     position: absolute;
+    z-index: 1;
     border: none;
     bottom: 10%;
-    color: #FFF;
+    color: olivedrab;
     font-size: 24px;
     cursor: pointer;
     font-family: FontAwesome;
@@ -28,7 +29,7 @@
   
   .pick::after {
     content: "\f164";
-  } */
+  }
   
   /* .pick:hover::after, .pass:hover::after {
     animation: iconBounce .57s 1;
