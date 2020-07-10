@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* .parallax {
+  
+  background-image: url("./images/star-wars-backgrounds-26.png");
+  
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

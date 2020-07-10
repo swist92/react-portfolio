@@ -1,10 +1,14 @@
 import React from "react";
 import Project from "../components/Project/Project";
+import Card from "../components/Card/Card";
+import CardBtn from "../components/CardBtn/CardBtn";
 
 function Portfolio() {
   return (
     <div>
-      <p>this is where the portfolio page starts</p>
+      <Project />
+      <Card />
+      <CardBtn />
     </div>
   );
 }

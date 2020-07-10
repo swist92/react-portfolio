@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper/Wrapper";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
