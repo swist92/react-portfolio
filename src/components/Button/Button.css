@@ -1,4 +1,4 @@
-.card-btn {
+/* .card-btn {
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -28,13 +28,13 @@
   
   .pick::after {
     content: "\f164";
-  }
+  } */
   
-  .pick:hover::after, .pass:hover::after {
+  /* .pick:hover::after, .pass:hover::after {
     animation: iconBounce .57s 1;
-  }
+  } */
   
-  @keyframes iconBounce {
+  /* @keyframes iconBounce {
     0% {
       font-size: 24px;
     }
@@ -47,4 +47,4 @@
       font-size: 24px;
     }
   
-  }
+  } */

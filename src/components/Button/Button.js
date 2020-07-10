@@ -1,9 +1,17 @@
 import React from "react";
-import "./style.css";
+import "./Button.css";
 
 function Button(props) {
   return (
-    <button onClick={props.onClick} className={`button ${props["data-value"]}`} {...props} />
+    <button
+      // onClick={props.onClick}
+      className="btn btn-info width: 15px height: 5px" 
+      // {`button ${props["data-value"]}`}
+      // {...props}
+      // style={{ opacity: props.image ? 1 : 0 }}
+      // onClick={props.handleBtnClick}
+      // data-value="pass"
+    />
   );
 }
 

@@ -1,14 +1,14 @@
 import React from "react";
 import Project from "../components/Project/Project";
 import Card from "../components/Card/Card";
-import CardBtn from "../components/CardBtn/CardBtn";
+// import Button from "../components/Button/Button";
 
 function Portfolio() {
   return (
     <div>
       <Project />
       <Card />
-      <CardBtn />
+      {/* <Button /> */}
     </div>
   );
 }
