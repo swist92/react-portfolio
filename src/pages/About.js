@@ -3,42 +3,42 @@ import React from "react";
 function About() {
   return (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui sapien,
-        placerat eleifend nulla sagittis, vestibulum varius neque. Nulla arcu
-        lectus, mollis non dui pharetra, gravida suscipit urna. Morbi semper
-        feugiat arcu vel suscipit. Nunc laoreet, ante vitae fermentum accumsan,
-        sem velit ornare lacus, at accumsan mi eros ut purus. Mauris et mollis
-        tortor, a mattis ante. Sed imperdiet commodo tempor. Donec fermentum
-        justo ac augue mollis, nec viverra leo vestibulum. Curabitur
-        scelerisque, nisl at dignissim pellentesque, augue libero varius nibh,
-        ut cursus ante metus vel felis. Nam at sapien ultrices, elementum nibh
-        quis, egestas erat. Sed luctus ligula arcu, in placerat felis molestie
-        ut. Aliquam bibendum tortor urna, et consectetur nisl semper nec. Nullam
-        nibh orci, porttitor sed leo eget, rutrum lacinia sem. Mauris venenatis
-        semper neque eu euismod.
-      </p>
-      <img
-        src="https://images.unsplash.com/photo-1594091917763-420ab657d986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2049&q=80"
-        alt="fog"
+      <body
         style={{
-            height: "200px",
-            width: "400px",
+          backgroundColor: "#cddeee",
+          textAlign: "center",
         }}
-      ></img>
-      <p>
-        Nunc aliquam efficitur diam, ac bibendum neque commodo et. Phasellus eu
-        nisl est. Nulla a quam id nibh blandit sollicitudin. Aliquam nunc
-        tortor, cursus vel turpis vitae, vehicula fringilla lorem. Pellentesque
-        habitant morbi tristique senectus et netus et malesuada fames ac turpis
-        egestas. In hendrerit malesuada diam at varius. Etiam sed iaculis ante,
-        quis mattis sem. Vestibulum convallis, magna et suscipit sollicitudin,
-        dolor nisi mollis ipsum, in gravida elit justo ac dolor. Sed ac suscipit
-        risus. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Fusce ut arcu elementum, tristique
-        tellus et, convallis lacus. Donec gravida pulvinar dolor dignissim
-        iaculis. Proin posuere sodales faucibus.
-      </p>
+      >
+        <p>
+          Computers connect us all, but access to these connections and the
+          quality of products found in software solutions varies greatly.
+          Advancement of these solutions and the connection it creates between
+          developer and client is what drove my desire to become a back-end
+          developer. After graduating from ASU with a B.A. in Global Studies, I
+          worked at my family’s business in social media and marketing, and then
+          as policy administrator at a regional insurance company. After a few
+          years, I decided to move to South Korea to teach English and leave a
+          mark on the world by advancing the lifelong opportunities of children.
+          This experience sparked my desire for a global career that would
+          connect people and cultivate accessible, quality products and
+          solutions. Thus began my deep dive into coding. Recently, I have been
+          certified as a Full-Stack Developer by University of Arizona, where I
+          gained knowledge in React, JavaScript, Node, SQL, and MongoDB. This
+          arsenal of technical skills ties together strongly with my previous
+          experiences.
+        </p>
+        <img
+          src="https://images.unsplash.com/photo-1594091917763-420ab657d986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2049&q=80"
+          alt="fog"
+          style={{
+            borderRadius: "8px",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "50%",
+          }}
+        ></img>
+      </body>
     </div>
   );
 }

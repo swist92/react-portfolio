@@ -7,7 +7,7 @@ function Contact() {
       <input type="text" name="lastName" placeholder="Last Name" />
       <input type="text" name="email" placeholder="Email" />
       <textarea placeholder="Message"></textarea>
-      <button type="submit">Submit</button>
+      <button type="button" class="btn btn-info">Submit</button>
     </form>
   );
 }
