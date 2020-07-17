@@ -22,7 +22,7 @@ class Carousel extends React.Component {
           subTitle: "First project of UA Coding Bootcamp.",
           imgSrc: chill,
           link: "https://www.swist92.github.io/project1vibe/",
-          link: "https://github.com/swist92/project1vibe",
+          // link: "https://github.com/swist92/project1vibe",
           selected: false,
         },
         {
@@ -56,7 +56,7 @@ class Carousel extends React.Component {
           subTitle: "Manage employee databases by creating, updating, and removing employees.",
           imgSrc: files,
           link: "https://swist92.github.io/employee-tracker/",
-          link: "https://github.com/swist92/employee-tracker",
+          // link: "https://github.com/swist92/employee-tracker",
           selected: false,
         },
         {
