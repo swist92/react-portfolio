@@ -1,15 +1,15 @@
 import React from "react";
-import Project from "../components/Project/Project";
-import Card from "../components/Card/Card";
+
+import Carousel from "../components/Carousel/Carousel";
 // import Button from "../components/Button/Button";
 
 function Portfolio() {
   return (
-    <div>
-      <Project />
-      <Card />
-      {/* <Button /> */}
-    </div>
+    <React.Fragment>
+
+      <Carousel />
+  
+    </React.Fragment>
   );
 }
 
