@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <Link class="navbar-brand" href="/about">
+      <Link class="navbar-brand" to="/about">
         Sarah Wist
       </Link>
       <button
