@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/about">
+      <Link class="navbar-brand" href="/about">
         Sarah Wist
-      </a>
+      </Link>
       <button
         class="navbar-toggler"
         type="button"
