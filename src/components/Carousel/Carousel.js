@@ -6,9 +6,9 @@ import Row from "react-bootstrap/Nav";
 
 import chill from "../../images/chill.jpg";
 import mood from "../../images/mood.jpg";
-import beehave from "../../images/beehave.jpg";
+import behave from "../../images/behave.jpg";
 import notes from "../../images/notes.jpg";
-import files from "../../images/files.jpg";
+import weights from "../../images/weights.jpg";
 import budget from "../../images/budget.jpg"
 
 class Carousel extends React.Component {
@@ -19,27 +19,26 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: "Project 1: Uplift",
-          subTitle: "First project of UA Coding Bootcamp.",
+          subTitle: "First project of UA Coding Boot Camp.",
           imgSrc: chill,
-          link: "https://www.swist92.github.io/project1vibe/",
+          link: "https://swist92.github.io/project1vibe/",
           // link: "https://github.com/swist92/project1vibe",
           selected: false,
         },
         {
           id: 1,
           title: "Project 2: Send Moods",
-          subTitle: "Second project of UA Coding Bootcamp.",
+          subTitle: "Second project of UA Coding Boot Camp.",
           imgSrc: mood,
           link: "https://project-2-mood-music.herokuapp.com/",
           selected: false,
         },
         {
           id: 2,
-          title: "Project 3: Bhave ",
-          subTitle: "Third project of UA Coding Bootcamp.",
-          imgSrc: beehave,
-          link: "https://www.youtube.com/",
-          //above link is placeholder
+          title: "Project 3: B'have ",
+          subTitle: "Third project of UA Coding Boot Camp.",
+          imgSrc: behave,
+          link: "https://bhavebkind.herokuapp.com/",
           selected: false,
         },
         {
@@ -52,17 +51,16 @@ class Carousel extends React.Component {
         },
         {
           id: 4,
-          title: "Employee Tracker",
-          subTitle: "Manage employee databases by creating, updating, and removing employees.",
-          imgSrc: files,
-          link: "https://swist92.github.io/employee-tracker/",
-          // link: "https://github.com/swist92/employee-tracker",
+          title: "Fitness Tracker",
+          subTitle: "Add or continue your workouts and add or complete exercises.",
+          imgSrc: weights,
+          link: "https://fitness-tracker1212.herokuapp.com/",
           selected: false,
         },
         {
           id: 5,
           title: "Progressive Budget",
-          subTitle: "Tracking your spending and income offline with updates posted once user is online again.",
+          subTitle: "Budget your spending and income offline with updates posted once user is online again.",
           imgSrc: budget,
           link: "https://budget-tracker2020.herokuapp.com/",
           selected: false,
