@@ -1,17 +1,27 @@
 import React from "react";
+// import "../App.css";
+// import Background from "../images/background_image.jpg"
 
 function About() {
   return (
     <div>
       <body
-        style={{
-          backgroundColor: "#cddeee",
-          textAlign: "center",
-        }}
+        style={
+          {
+            // backgroundColor: "#cddeee",
+            // textAlign: "center",
+          }
+        }
       >
-        <p>
-          Computers connect us all, but access to these connections and the
-          quality of products found in software solutions varies greatly.
+        <p
+          style={
+            {
+              // color: "white",
+              // textAlign: "center",
+            }
+          }
+        >
+          The quality of products found in software solutions varies greatly.
           Advancement of these solutions and the connection it creates between
           developer and client is what drove my desire to become a back-end
           developer. After graduating from ASU with a B.A. in Global Studies, I
@@ -28,14 +38,18 @@ function About() {
           experiences.
         </p>
         <img
-          src="https://images.unsplash.com/photo-1594091917763-420ab657d986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2049&q=80"
-          alt="fog"
+          src="https://images.unsplash.com/photo-1532538014654-28b063b09d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          alt="marble"
           style={{
-            borderRadius: "8px",
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-            width: "50%",
+            position: "fixed",
+            minWidth: "100%",
+            minHeight: "100%",
+            height: "100%",
+            backgroundAttachment: "fixed",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            // width: "50%",
           }}
         ></img>
       </body>

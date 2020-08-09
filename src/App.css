@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  color: black;
+  height: 100%;
+  background-image: url("./images/react_portfolio_bkgd_image.jpg");
+  /* position: fixed;
+  min-width: 100%;
+  min-height: 100%; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -38,7 +48,7 @@
 }
 /* .parallax {
   
-  background-image: url("./images/star-wars-backgrounds-26.png");
+  background-image: url();
   
   height: 100%;
 

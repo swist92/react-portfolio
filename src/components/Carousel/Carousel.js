@@ -22,7 +22,6 @@ class Carousel extends React.Component {
           subTitle: "First project of UA Coding Boot Camp.",
           imgSrc: chill,
           link: "https://swist92.github.io/project1vibe/",
-          // link: "https://github.com/swist92/project1vibe",
           selected: false,
         },
         {
