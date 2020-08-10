@@ -1,15 +1,16 @@
 .footer {
   min-height: 10px;
-  background: lavender;
-  position: relative;
+  background: mediumpurple;
+  position: fixed;
+  bottom: 0;
 }
 
-.footer span {
-  position: absolute;
-  bottom: 0;
+/* .footer span {
+  /* position: absolute; */
+  /* bottom: 0;
   left: 0;
-  right: 0;
-  text-align: center;
+  right: 0; */
+  /* text-align: center;
   padding: 3px;
-  background: mediumpurple;
-}
+  background: mediumpurple; */
+/* } */ 

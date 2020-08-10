@@ -11,8 +11,9 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container-fluid">
         <Navbar />
+
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
