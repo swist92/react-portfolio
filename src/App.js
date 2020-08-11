@@ -11,17 +11,14 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="container-fluid">
-        <Navbar />
-
-        <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-        </Wrapper>
-        <Footer />
-      </div>
+      <Navbar />
+      <Wrapper>
+        <Route exact path="/" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </Wrapper>
+      <Footer />
     </Router>
   );
 }

@@ -1,12 +1,8 @@
 import React from "react";
-import "../App.css";
-// import bgImage from "../images/react_portfolio_bkgd_image.jpg";
 
 function About() {
   return (
-    <div className="row">
-      <div className="col-12">
-
+    <div>
       <p>
         The quality of products found in software solutions varies greatly.
         Advancement of these solutions and the connection it creates between
@@ -23,22 +19,6 @@ function About() {
         in React, JavaScript, Node, SQL, and MongoDB. This arsenal of technical
         skills ties together strongly with my previous experiences.
       </p>
-      {/* <img
-        src="https://images.unsplash.com/photo-1532538014654-28b063b09d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-        alt="marble"
-        style={{
-          position: "fixed",
-          minWidth: "100%",
-          minHeight: "100%",
-          height: "100%",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          // width: "50%",
-        }}
-      ></img> */}
-      </div>
     </div>
   );
 }
