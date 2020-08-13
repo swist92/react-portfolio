@@ -1,6 +1,6 @@
 .footer {
   min-height: 10px;
-  /* opacity: 100%; */
+  /* opacity: 50%; */
   position: fixed;
   bottom: 0;
 }
@@ -12,5 +12,5 @@
   right: 0; 
   text-align: center;
   padding: 3px;
-  background: mediumpurple; 
+  /* background: mediumpurple;  */
 } 

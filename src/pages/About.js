@@ -19,6 +19,9 @@ function About() {
         in React, JavaScript, Node, SQL, and MongoDB. This arsenal of technical
         skills ties together strongly with my previous experiences.
       </p>
+      <br></br>
+      <a href="https://www.linkedin.com/in/sarah-wist-a02430103/">LinkedIn</a> <br></br>
+      <a href="https://github.com/swist92">GitHub</a>
     </div>
   );
 }
