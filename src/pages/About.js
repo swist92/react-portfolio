@@ -2,8 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="paragraph">
       <p>
+        <br></br>
         The quality of products found in software solutions varies greatly.
         Advancement of these solutions and the connection it creates between
         developer and client is what drove my desire to become a back-end
